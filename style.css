@@ -1,26 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: #a70909d7;
+    background-color: #5e0404d7;
 }
 
 h1 {
-    font-size: x-large;
-    margin-left: 100px;
-    margin-right: 660px;
-    padding-left: 6px;
+    font-size: xx-large;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 8px;
     border: 3px solid;
+    border-color: #24221a;
+    color:rgb(255, 8, 8);
+}
+
+h2 {
+    color: #FFD700;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: larger ;
+    margin-left: 10px;
+    padding-top: 10px;
 }
 
 .imgPr {
+    width: 400px;
+    height: 410px;
+    margin-left: 40px;
+}
+
+.imgPr2 {
     width: 500px;
-    margin-left: 20px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+.fotosC {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.nomesH {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pSN {
+    font-size: x-large;
 }
 
 footer {
     background-color: white;
-}
-
-table {
-    font-size: xx-large;
 }
 
 form {
@@ -28,30 +68,102 @@ form {
 }
 
 p {
+    margin-bottom: 20px;
     padding-left: 30px;
+    color: #FFD700;
 }
+
+borderH {
+    border:10px solid;
+}
+
+
+
+
+
+
 
 .container {
     display: flex;
-    width: 400px;
+    width: 80%;
 }
 
 @media (max-width:500px) {
     .container {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 
+header {
+    margin-bottom: 40px;
+}
 
+ul {
+    margin-top: 30px;
+    margin-left: 40px;
+}
 
+.fE {
+    font-size: x-large;
+    color: yellow;
+    margin-left: 20px;
+    margin-top: 10px;
+}
 
+.imgP {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
 
+.imgP2 {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.imgH {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+} 
+
+.imgH2 {
+    width: 350px;
+    height: 200px;
+}
+
+.imgH3 {
+    width: 250px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+form {
+    padding-left: 10px;
+}
+select {
+    padding-bottom: 10px;
+}
+
+button {
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #FFD700;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
 
 
 
 .nav-button {
     margin: 10px;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 20px;
     border-radius: 10px;
 } 
@@ -63,7 +175,8 @@ p {
 
 li {
     display: inline;
-    margin-left: 40px;
+    margin-top: 80px;
+    margin-left: 80px;
     background: #FFA500;
 }
 
