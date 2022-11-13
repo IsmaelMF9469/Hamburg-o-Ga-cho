@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #5e0404d7;
+    background-color: black;
 }
 
 h1 {
@@ -192,6 +192,14 @@ button {
 .categoria {
     display: flex;
     flex-direction: column;
+}
+
+.flexCategoria {
+    display: flex;
+    flex-direction: column;
+}
+.categoriaP {
+    color: white;
 }
 
 
