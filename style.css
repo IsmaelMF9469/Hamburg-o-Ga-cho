@@ -189,6 +189,11 @@ button {
     margin-bottom: 10px;
 }
 
+.categoria {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
