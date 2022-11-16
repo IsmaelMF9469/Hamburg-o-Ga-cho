@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(167, 7, 7);
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
     padding-left: 8px;
     border: 3px solid;
     border-color: #24221a;
-    color:rgb(255, 8, 8);
+    color: yellow ;
 }
 
 h2 {
@@ -198,8 +198,35 @@ button {
     display: flex;
     flex-direction: column;
 }
+.flexCategoria2 {
+    display: flex;
+    justify-content: space-between;
+}
+.flexDestaque {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
 .categoriaP {
     color: white;
+}
+
+.palavrasYellow {
+    color: yellow;
+}
+
+.borda {
+    border: 1px dotted  gray;
+    border-radius: 25px;
+}
+
+.categoriaEdestaques {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 450px;
+    font-size: xx-large;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
 }
 
 
@@ -207,15 +234,27 @@ button {
 
 
 .nav-button {
-    margin: 10px;
     border: 2px solid white;
     padding: 20px;
+    margin: 30px;
     border-radius: 10px;
 } 
 
 .nav-button:hover {
     background-color: #FFD700;
     color: white;
+}
+
+.nav-button2 {
+    font-size: larger;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.nav-button2:hover {
+    color: black;
+    background-color: yellow;
 }
 
 li {
