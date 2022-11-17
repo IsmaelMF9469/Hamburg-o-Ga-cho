@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(167, 7, 7);
+    background-color: #fff;
 }
 
 h1 {
@@ -14,11 +14,11 @@ h1 {
     padding-left: 8px;
     border: 3px solid;
     border-color: #24221a;
-    color: yellow ;
+    color: black ;
 }
 
 h2 {
-    color: #FFD700;
+    color: black;
     display: flex;
     justify-content: center;
     font-size: xx-large;
@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-    color: #FFD700;
+    color: black;
     margin-left: 30px;
     margin-bottom: 10px;
     font-size: x-large;
@@ -44,6 +44,12 @@ h4 {
     justify-content: center;
     font-size: xx-large;
     margin-top: 20px;
+}
+
+@media (max-width:500px) {
+    .bebidas {
+        flex-direction: column;
+    }
 }
 
 .imgPr {
@@ -64,9 +70,21 @@ h4 {
     align-items: space-between;
 }
 
+@media (max-width:500px) {
+    .fotosC {
+        flex-direction: column;
+    }
+}
+
 .nomesH {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width:500px) {
+    .nomesH {
+        flex-direction: column;
+    }
 }
 
 .pSN {
@@ -74,7 +92,7 @@ h4 {
 }
 
 footer {
-    background-color: white;
+    background-color:#FFD700;
 }
 
 form {
@@ -99,7 +117,6 @@ borderH {
 
 .container {
     display: flex;
-    width: 80%;
 }
 
 @media (max-width:500px) {
@@ -119,7 +136,7 @@ ul {
 
 .fE {
     font-size: x-large;
-    color: yellow;
+    color: black;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -194,22 +211,59 @@ button {
     flex-direction: column;
 }
 
+@media (max-width:500px) {
+    .categoria {
+        flex-direction: column;
+    }
+}
+
 .flexCategoria {
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width:500px) {
+    .flexCategoria {
+        flex-direction: column;
+    }
+}
+
 .flexCategoria2 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
+
+@media (max-width:500px) {
+    .flexCategoria2{
+        flex-direction: column;
+    }
+}
+
+.bordaFlexCategoria{
+    border-right: 3px double;
+    border-top: 3px double;
+}
+
+.bordaCategoria {
+    border-bottom: 3px solid;
+    margin-left: 6px;
+    padding-right: 20px;
+}
+
 .flexDestaque {
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
 
 }
+
+@media (max-width:500px) {
+    .flexDestaque {
+        flex-direction: column;
+    }
+}
 .categoriaP {
-    color: white;
+    color: black;
 }
 
 .palavrasYellow {
@@ -229,6 +283,27 @@ button {
     font-family: 'Noto Sans Mende Kikakui', sans-serif;
 }
 
+@media (max-width:500px) {
+    .categoriaEdestaques {
+        flex-direction: column;
+    }
+}
+
+.imgFooter {
+    width: 100px;
+}
+
+.temaButton {
+    display: flex;
+    align-items: flex-end;
+    align-items: baseline;
+}
+
+@media (max-width:500px) {
+    .temaButton {
+        flex-direction: column;
+    }
+}
 
 
 
@@ -247,7 +322,7 @@ button {
 
 .nav-button2 {
     font-size: larger;
-    color: white;
+    color: black;
     margin: 10px;
     padding: 20px;
 }
@@ -268,3 +343,20 @@ li {
 a {
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#botao-pronto {
+    padding: 4px;
+}
+

@@ -7,10 +7,10 @@
     <title> Categoria </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body">
     <a href="index.html">  <h1> Hamburgão Gaúcho </h1> </a>
     <!-- Cabeçalho do site -->
-    <header class="container">
+    <header class="container ">
         <nav>
             <ul>
                 <li class="nav-button" >
@@ -22,6 +22,7 @@
                 <li class="nav-button" >
                     <a href="sobrenos.html"> Sobre Nós </a>
                 </li>
+                <button onmouseclick="handleclick()"> Tema Escuro </button>
             </ul>
         </nav>
     </header>
@@ -29,11 +30,11 @@
 
     <main>
         <div class="categoriaEdestaques">
-        <p class="palavrasYellow"> Categoria </p>
-        <p class="palavrasYellow"> Destaques </p>
+        <p class=" bordaCategoria"> Categorias </p>
+        <p class=" bordaCategoria"> Destaques </p>
         </div>
         <section class="flexCategoria2">
-            <div class="flexCategoria">
+            <div class="flexCategoria  bordaFlexCategoria">
                 
                 <p class="nav-button2 categoriaP borda"> Lançamentos </p>
                 <p class="nav-button2 categoriaP borda"> Sanduíches </p>
@@ -41,21 +42,21 @@
                 <p class="nav-button2 categoriaP borda"> sobremesas </p>
                 <p class="nav-button2 categoriaP borda"> Bebidas </p>
             </div>
-            <div class="flexDestaque">
+            <div class="flexDestaque bordaFlexCategoria2">
                     <div>
                     <a href="./x-tudo.html">  
                         <img class="imgH " src="https://lanchonete.vallesites.com.br/uploads/thumbs/630x630/x-tudo.png" alt="X-TUDO">
-                        <p class="palavrasYellow"> X-TUDO - R$ 15,00 </p> </a> 
+                        <p class=""> X-TUDO - R$ 15,00 </p> </a> 
                     </div>
                     <div>
                         <a href="./x-duplo.html">
                             <img class="imgH3" src="https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzX1Xu4q/200/200/original?country=br" alt="X-DUPLO">
-                            <p class="palavrasYellow"> X-DUPLO - R$ 18,00 </p>
+                            <p class=""> X-DUPLO - R$ 18,00 </p>
                         </a> 
                     </div>
                     <div>
                         <img class="imgR1 " src="https://www.pngplay.com/wp-content/uploads/12/Fanta-PNG-Clipart-Background.png" alt="Fanta Laranja">
-                        <p class="palavrasYellow"> FANTA LARANJA - R$ 7,00</p>
+                        <p class=""> FANTA LARANJA - R$ 7,00</p>
                     </div>
             </div>
             
@@ -63,13 +64,15 @@
     </main>
 
         <!-- Rodapé do site -->
-        <footer>
+    <footer>
             <h4> Faça seu pedido pelo Whatsapp ou pelo IFOOD </h4>
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5521969681148&text=Boa%20noite!!!%2C%20meu%20est%C3%B4mago%20pede%20por%3A%20">
                     <img class="imgP " src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png" alt="Whatsapp">
                 </a>
                 <img class="imgP2" src="https://logopng.com.br/logos/ifood-43.png" alt="IFOOD">
-        </footer>
+    </footer>
         <!-- /Rodapé do site -->
+    <script type="text/javascript" src="script.ts"></script>
+
 </body>
 </html>
