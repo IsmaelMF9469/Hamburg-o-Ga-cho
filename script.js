@@ -1,3 +1,7 @@
-function handleClick () {
-    window.location.href = "file:///C:/Users/GenBR/Desktop/Hamburgao-Gaucho/final.html"
+function handleMove () {
+    document.querySelector('#mensagem').innerHTML = 'Mensagem Subliminar';
+}
+
+function handleOut () {
+    document.querySelector('#mensagem').innerHTML = 'Não passe vontade, peça já o seu hambúrguer !!!';
 }

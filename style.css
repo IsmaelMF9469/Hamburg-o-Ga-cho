@@ -134,12 +134,7 @@ ul {
     margin-left: 40px;
 }
 
-.fE {
-    font-size: x-large;
-    color: black;
-    margin-left: 20px;
-    margin-top: 10px;
-}
+
 
 .imgP {
     width: 100px;
@@ -353,7 +348,12 @@ a {
 
 
 
-
+#mensagem {
+    color: red;
+    font-size: x-large;
+    margin-left: 20px;
+    margin-top: 10px;
+}
 
 
 #botao-pronto {
